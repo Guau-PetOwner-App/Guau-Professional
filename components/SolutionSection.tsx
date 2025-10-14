@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Check, Clock, CalendarCheck, Receipt } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll } from 'framer-motion';
 import { useLanguage } from '../hooks/useLanguage';
 import { translations } from '../translations';
 

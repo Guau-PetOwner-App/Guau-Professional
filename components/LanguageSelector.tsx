@@ -6,7 +6,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from './ui/dropdown-menu';
-import { useLanguage, type Language } from '../hooks/useLanguage';
+import { useLanguage } from '../hooks/useLanguage';
 import { translations } from '../translations';
 
 /**

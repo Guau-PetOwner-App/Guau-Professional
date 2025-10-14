@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "lib/**/*", "components/**/*", "hooks/**/*", "contexts/**/*", "services/**/*", "translations/**/*", "*.d.ts"],
   "exclude": ["node_modules", "dist", "**/*.d.ts"]
 }
