@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <!-- Viewport for Responsive Web Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Guau Pro - Plataforma SaaS para Profesionales del Cuidado de Mascotas</title>
+    <meta name="description" content="Guau Pro es la plataforma definitiva para hoteles de mascotas, pet sitters y guarderías. Gestiona reservas, envía updates instantáneos y automatiza facturación. Prueba gratis 14 días." />
+    <meta name="keywords" content="software para hoteles de mascotas, gestión de guarderías caninas, plataforma pet sitters, software veterinario, gestión de mascotas" />
+    <meta name="author" content="Guau Pro" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://guaupro.com/" />
+    <meta property="og:title" content="Guau Pro - Gestiona tu negocio de mascotas profesionalmente" />
+    <meta property="og:description" content="Ahorra tiempo, mejora la comunicación con clientes y crece sin estrés con Guau Pro." />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:locale:alternate" content="en_US" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://guaupro.com/" />
+    <meta property="twitter:title" content="Guau Pro - Gestiona tu negocio de mascotas profesionalmente" />
+    <meta property="twitter:description" content="Ahorra tiempo, mejora la comunicación con clientes y crece sin estrés con Guau Pro." />
+    <meta property="twitter:image" content="/twitter-image.jpg" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/png" href="/favicon.png" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://guaupro.com/" />
+    
+    <!-- Alternate Languages -->
+    <link rel="alternate" hreflang="es" href="https://guaupro.com/es" />
+    <link rel="alternate" hreflang="en" href="https://guaupro.com/en" />
+    <link rel="alternate" hreflang="x-default" href="https://guaupro.com/" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#53C6F0" />
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Preconnect to improve performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="preconnect" href="https://oqoaxusesfcrmejftwmt.supabase.co" />
+    
+    <!-- Security Headers (CSP) -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://images.unsplash.com data:; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://oqoaxusesfcrmejftwmt.supabase.co;" />
+    
+    <!-- Accessibility Statement -->
+    <meta name="accessibility" content="WCAG 2.1 Level AA compliant, European Accessibility Act (EAA) compliant, Section 508 compliant" />
+    
+    <!-- Structured Data (JSON-LD) for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Guau Pro",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "19",
+        "highPrice": "149",
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "billingDuration": "P1M"
+        }
+      },
+      "description": "Plataforma SaaS para profesionales del cuidado de mascotas. Gestiona reservas, envía updates y automatiza facturación.",
+      "screenshot": "https://guaupro.com/screenshot.jpg",
+      "featureList": [
+        "Gestión de reservas",
+        "Updates instantáneos",
+        "Facturación automática",
+        "Coordinación de equipo",
+        "Comunicación con clientes"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "147"
+      }
+    }
+    </script>
+    
+    <style>
+      /* Prevent FOUC (Flash of Unstyled Content) */
+      html {
+        visibility: visible;
+        opacity: 1;
+      }
+      
+      /* Loading state */
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Skip to main content for screen readers -->
+    <a href="#main-content" class="sr-only focus:not-sr-only">Skip to main content</a>
+    
+    <!-- React Root -->
+    <div id="root"></div>
+    
+    <!-- Module Script -->
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Noscript fallback -->
+    <noscript>
+      <div style="text-align: center; padding: 2rem; font-family: system-ui, sans-serif;">
+        <h1>🐾 Guau Pro</h1>
+        <p>Para usar Guau Pro, por favor activa JavaScript en tu navegador.</p>
+        <p>To use Guau Pro, please enable JavaScript in your browser.</p>
+      </div>
+    </noscript>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "Guau Pro - Plataforma para Profesionales del Cuidado de Mascotas",
+  "short_name": "Guau Pro",
+  "description": "Gestiona tu negocio de cuidado de mascotas como un profesional",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#53C6F0",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "es-ES",
+  "dir": "ltr",
+  "prefer_related_applications": false
+}
