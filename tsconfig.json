@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*", "lib/**/*", "components/**/*", "hooks/**/*", "contexts/**/*", "services/**/*", "translations/**/*", "*.d.ts"],
-  "exclude": ["node_modules", "dist", "**/*.d.ts"]
+  "include": ["src/**/*", "lib/**/*", "components/**/*", "hooks/**/*", "contexts/**/*", "services/**/*", "translations/**/*", "vite-env.d.ts"],
+  "exclude": ["node_modules", "dist"]
 }
