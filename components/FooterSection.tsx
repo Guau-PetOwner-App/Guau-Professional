@@ -35,20 +35,19 @@ export function FooterSection() {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Branding */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="p-2 bg-[#53C6F0]/15 rounded-lg backdrop-blur-sm border border-[#53C6F0]/20">
-                <PawIcon size={28} className="text-[#53C6F0]" />
-              </div>
-              <h3 className="text-white" style={{
-                fontSize: 'var(--font-subheading)',
-                lineHeight: 'var(--line-subheading)',
-                fontWeight: 600
-              }}>Guau Pro</h3>
+            <div className="flex flex-col gap-3 mb-4">
+              <a href="#" className="inline-block">
+                <img
+                  src="https://oqoaxusesfcrmejftwmt.supabase.co/storage/v1/object/public/landing-images/guau-logo-blue.svg"
+                  alt="Guau Pro"
+                  className="h-8 w-auto"
+                />
+              </a>
+              <p className="text-blue-200/80" style={{
+                fontSize: 'var(--font-body-small)',
+                lineHeight: 'var(--line-body-small)'
+              }}>Professional technology for pet care</p>
             </div>
-            <p className="text-blue-200/80" style={{
-              fontSize: 'var(--font-body-small)',
-              lineHeight: 'var(--line-body-small)'
-            }}>{t.footer.brandline}</p>
           </div>
 
           {/* Links */}
@@ -150,12 +149,10 @@ export function FooterSection() {
         <div className="border-t border-[#53C6F0]/10 pt-8 mt-12">
           <div className="text-center space-y-4">
             <p className="text-blue-300/60 text-sm">{t.footer.copyright}</p>
-            <div className="flex items-center justify-center gap-3">
-              <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#E96F42]/15 backdrop-blur-sm">
-                <Heart className="w-4 h-4 text-[#FF7F50] fill-[#FF7F50] animate-pulse" aria-hidden="true" style={{ animationDuration: '2s' }} />
+              <div className="flex items-center justify-center gap-2">
+                <Heart className="w-4 h-4 text-red-400" aria-hidden="true" />
+                <p className="text-blue-100/90 text-base">Designed exclusively for animal care professionals.</p>
               </div>
-              <p className="text-blue-100/90 text-base">{t.footer.tagline}</p>
-            </div>
           </div>
         </div>
       </div>

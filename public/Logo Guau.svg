@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <rect width="200" height="60" rx="12" fill="#fff"/>
+  <text x="20" y="38" font-size="28" font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" fill="#222">Guau</text>
+  <circle cx="170" cy="30" r="16" fill="#53C6F0"/>
+</svg>

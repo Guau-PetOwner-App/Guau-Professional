@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F07A52"/>
+      <stop offset="1" stop-color="#E96F42"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <!-- subtle background paw prints -->
+  <g opacity="0.06" fill="#53C6F0">
+    <circle cx="1100" cy="90" r="18"/>
+    <circle cx="1060" cy="120" r="12"/>
+    <circle cx="1125" cy="135" r="10"/>
+    <path d="M1085 165c24 0 43 19 43 43s-19 43-43 43-43-19-43-43 19-43 43-43Z"/>
+  </g>
+
+  <!-- Centered logo mark -->
+  <g transform="translate(0, -10)">
+    <!-- Heart -->
+    <path fill="url(#g)" d="M600 420c-88-73-134-117-134-176 0-44 38-68 71-68 26 0 47 12 63 33 16-21 37-33 63-33 33 0 71 24 71 68 0 59-46 103-134 176Z"/>
+    <!-- Ears -->
+    <path fill="#E96F42" d="M494 190c-10 27-13 58 0 86 18-22 35-32 52-36-6-23-22-40-52-50Z"/>
+    <path fill="#E96F42" d="M706 190c10 27 13 58 0 86-18-22-35-32-52-36 6-23 22-40 52-50Z"/>
+    <!-- Paws -->
+    <g fill="#53C6F0">
+      <circle cx="540" cy="465" r="18"/>
+      <path d="M578 526c-23 0-41-18-41-41 0-16 13-30 30-30 23 0 41 18 41 41 0 16-13 30-30 30Z"/>
+      <circle cx="660" cy="465" r="18"/>
+      <path d="M622 526c23 0 41-18 41-41 0-16-13-30-30-30-23 0-41 18-41 41 0 16 13 30 30 30Z"/>
+    </g>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="560" text-anchor="middle" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="56" font-weight="700" fill="#2D2F34">Guau Pro</text>
+  <text x="600" y="600" text-anchor="middle" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="500" fill="#6C7382">Plataforma para profesionales del cuidado de mascotas</text>
+</svg>

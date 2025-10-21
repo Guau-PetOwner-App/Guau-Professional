@@ -1,5 +1,4 @@
 import { LanguageSelector } from './LanguageSelector';
-import { PawIcon } from './icons/PawIcon';
 import { useLanguage } from '../hooks/useLanguage';
 import { translations } from '../translations';
 
@@ -30,13 +29,15 @@ export function Header() {
               className="flex items-center gap-3 focus:outline-none focus:ring-[3px] focus:ring-[#53C6F0] focus:ring-offset-2 rounded-lg px-2 py-1 transition-all duration-200 group"
               aria-label={language === 'es' ? 'Guau Pro - Inicio' : language === 'en' ? 'Guau Pro - Home' : 'Guau Pro - Accueil'}
             >
-              <PawIcon 
-                size={32} 
-                className="text-[#53C6F0] group-hover:text-[#E96F42] transition-colors duration-200" 
+              <img
+                src="https://oqoaxusesfcrmejftwmt.supabase.co/storage/v1/object/public/landing-images/guau-logo-blue.svg"
+                alt="Guau Pro"
+                className="h-9 w-auto select-none transition-transform duration-200 group-hover:scale-[1.02]"
+                decoding="async"
+                loading="eager"
+                fetchPriority="high"
               />
-              <span className="text-[#2D2F34] group-hover:text-[#53C6F0] transition-colors duration-200">
-                Guau Pro
-              </span>
+              <span className="sr-only">Guau Pro</span>
             </a>
           </div>
 

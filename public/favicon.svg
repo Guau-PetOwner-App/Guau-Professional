@@ -1,7 +1,3 @@
-<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="32" height="32" rx="6" fill="#53C6F0"/>
-  <path d="M8 12C8 9.79086 9.79086 8 12 8H20C22.2091 8 24 9.79086 24 12V20C24 22.2091 22.2091 24 20 24H12C9.79086 24 8 22.2091 8 20V12Z" fill="white"/>
-  <circle cx="14" cy="14" r="2" fill="#53C6F0"/>
-  <circle cx="18" cy="18" r="1.5" fill="#53C6F0"/>
-  <path d="M12 20C12 18.8954 12.8954 18 14 18C15.1046 18 16 18.8954 16 20" stroke="#53C6F0" stroke-width="1.5" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <image xlink:href="https://oqoaxusesfcrmejftwmt.supabase.co/storage/v1/object/public/landing-images/guau-logo-blue.svg" href="https://oqoaxusesfcrmejftwmt.supabase.co/storage/v1/object/public/landing-images/guau-logo-blue.svg" height="32" width="32"/>
 </svg>
