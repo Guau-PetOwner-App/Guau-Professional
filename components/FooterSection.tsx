@@ -1,5 +1,4 @@
 import { Heart } from 'lucide-react';
-import { PawIcon } from './icons/PawIcon';
 import { useLanguage } from '../hooks/useLanguage';
 import { translations } from '../translations';
 
