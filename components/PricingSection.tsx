@@ -16,7 +16,7 @@ export function PricingSection({ onOpenWaitlist }: PricingSectionProps) {
   const plans = [
     {
       name: t.pricing.starter.name,
-      price: t.pricing.starter.price,
+  price: 10,
       description: t.pricing.starter.description,
       features: [
         t.pricing.starter.feature1,
@@ -30,7 +30,7 @@ export function PricingSection({ onOpenWaitlist }: PricingSectionProps) {
     },
     {
       name: t.pricing.professional.name,
-      price: t.pricing.professional.price,
+  price: 29,
       description: t.pricing.professional.description,
       badge: t.pricing.professional.badge,
       features: [
@@ -46,7 +46,7 @@ export function PricingSection({ onOpenWaitlist }: PricingSectionProps) {
     },
     {
       name: t.pricing.business.name,
-      price: t.pricing.business.price,
+  price: 99,
       description: t.pricing.business.description,
       features: [
         t.pricing.business.feature1,
